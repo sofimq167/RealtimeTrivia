@@ -30,7 +30,7 @@ Necesitas tener **Node.js** instalado (versión 18 o superior).
 Si lo descargaste como ZIP, extráelo. Si lo clonaste con git:
 
 ```bash
-git clone <url-del-repo>
+git clone https://github.com/sofimq167/RealtimeTrivia
 cd RealtimeTrivia
 ```
 
