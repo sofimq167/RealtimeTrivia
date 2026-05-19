@@ -74,7 +74,7 @@ El frontend queda en `http://localhost:3000`. Abre esa URL en el navegador y ya 
 
 ---
 
-## Funcionalidades que implementé
+## Funcionalidades implementadas
 
 ### Sistema de salas
 Cuando alguien crea una sala, el servidor genera un código único de 6 caracteres (por ejemplo `KLB4MK`). Los demás jugadores lo ingresan para unirse. Solo el que creó la sala puede iniciar la partida.
