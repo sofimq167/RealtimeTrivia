@@ -1,0 +1,216 @@
+{
+  "videojuegos": [
+    {
+      "id": "vg1",
+      "question": "¿En qué año se lanzó la primera versión de Minecraft?",
+      "options": ["2009", "2011", "2007", "2013"],
+      "correct": 0,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vg2",
+      "question": "¿Cuál es el nombre del fontanero protagonista de la saga más famosa de Nintendo?",
+      "options": ["Luigi", "Wario", "Mario", "Toad"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "vg3",
+      "question": "¿Qué empresa desarrolló la saga The Legend of Zelda?",
+      "options": ["Sega", "Sony", "Nintendo", "Capcom"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "vg4",
+      "question": "¿Cuántos Chaos Emeralds existen en la saga Sonic?",
+      "options": ["5", "6", "8", "7"],
+      "correct": 3,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vg5",
+      "question": "¿En qué país fue desarrollado el juego 'Among Us'?",
+      "options": ["Canadá", "Estados Unidos", "Japón", "Corea del Sur"],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vg6",
+      "question": "¿Cuál es el nombre del protagonista de la saga Dark Souls?",
+      "options": ["Ashen One", "Chosen Undead", "Bearer of the Curse", "Tarnished"],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "id": "vg7",
+      "question": "¿Qué juego popularizó el género Battle Royale en 2017?",
+      "options": ["Fortnite", "PUBG", "Apex Legends", "Warzone"],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vg8",
+      "question": "¿Cuál fue el primer juego en usar el término 'Easter Egg' con su significado actual?",
+      "options": ["Space Invaders", "Pac-Man", "Adventure (Atari 2600)", "Pong"],
+      "correct": 2,
+      "difficulty": "hard"
+    },
+    {
+      "id": "vg9",
+      "question": "¿Cómo se llama el caballo de Link en The Legend of Zelda: Ocarina of Time?",
+      "options": ["Rocinante", "Epona", "Sombra", "Aether"],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vg10",
+      "question": "¿Qué consola introdujo los controles de movimiento con el Wiimote?",
+      "options": ["PlayStation 3", "Xbox 360", "Nintendo Wii", "GameCube"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "vg11",
+      "question": "¿En qué año se lanzó el primer Call of Duty?",
+      "options": ["2001", "2003", "2005", "2007"],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "vg12",
+      "question": "¿Cuál es el nombre del villain principal de la saga Final Fantasy VII?",
+      "options": ["Sephiroth", "Kefka", "Ultimecia", "Ardyn"],
+      "correct": 0,
+      "difficulty": "easy"
+    },
+    {
+      "id": "vg13",
+      "question": "¿Qué franquicia de videojuegos tiene como lema 'Gotta Catch 'Em All'?",
+      "options": ["Digimon", "Yo-Kai Watch", "Pokémon", "Monster Hunter"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "vg14",
+      "question": "¿Cuántos jugadores puede tener simultáneamente una partida de Fall Guys?",
+      "options": ["40", "60", "50", "100"],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "id": "vg15",
+      "question": "¿En qué ciudad ficticia se desarrolla GTA: Vice City?",
+      "options": ["Liberty City", "San Andreas", "Los Santos", "Vice City (Miami)"],
+      "correct": 3,
+      "difficulty": "medium"
+    }
+  ],
+  "peliculas": [
+    {
+      "id": "mv1",
+      "question": "¿Quién dirigió la trilogía original de Star Wars?",
+      "options": ["Steven Spielberg", "James Cameron", "George Lucas", "Francis Ford Coppola"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv2",
+      "question": "¿En qué año se estrenó Titanic de James Cameron?",
+      "options": ["1995", "1997", "1999", "2001"],
+      "correct": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv3",
+      "question": "¿Cuál es la película animada más taquillera de la historia?",
+      "options": ["El Rey León (2019)", "Frozen II", "The Lion King (1994)", "Incredibles 2"],
+      "correct": 0,
+      "difficulty": "hard"
+    },
+    {
+      "id": "mv4",
+      "question": "¿Qué actor interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+      "options": ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv5",
+      "question": "¿Cuántos Óscar ganó 'El Señor de los Anillos: El Retorno del Rey'?",
+      "options": ["9", "11", "13", "7"],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "id": "mv6",
+      "question": "¿Cómo se llama el tiburón de la película 'Buscando a Nemo'?",
+      "options": ["Jaws", "Bruce", "Chomper", "Finn"],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "mv7",
+      "question": "¿Qué película de Christopher Nolan trata sobre sueños dentro de sueños?",
+      "options": ["Interstellar", "The Prestige", "Inception", "Memento"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv8",
+      "question": "¿En qué país se ambienta la película 'Parasite' (2019)?",
+      "options": ["Japón", "China", "Corea del Sur", "Taiwán"],
+      "correct": 2,
+      "difficulty": "medium"
+    },
+    {
+      "id": "mv9",
+      "question": "¿Quién compuso la música de las películas de Harry Potter?",
+      "options": ["Hans Zimmer", "John Williams", "Danny Elfman", "Howard Shore"],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "id": "mv10",
+      "question": "¿Cuál es el nombre real del Guasón en la saga de Batman de Nolan?",
+      "options": ["Jack Napier", "No se revela", "Arthur Fleck", "Jerome Valeska"],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "id": "mv11",
+      "question": "¿Qué director es conocido por 'Pulp Fiction' y 'Kill Bill'?",
+      "options": ["Martin Scorsese", "Ridley Scott", "Quentin Tarantino", "David Fincher"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv12",
+      "question": "¿Cuál es el nombre del barco hundido en la película Titanic?",
+      "options": ["Olympic", "Britannic", "Lusitania", "Titanic RMS"],
+      "correct": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv13",
+      "question": "¿Qué película de animación presenta la canción 'Let It Go'?",
+      "options": ["Brave", "Tangled", "Frozen", "Moana"],
+      "correct": 2,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv14",
+      "question": "¿Qué actor interpretó a Forrest Gump?",
+      "options": ["Tom Cruise", "Tom Hanks", "Brad Pitt", "Matt Damon"],
+      "correct": 1,
+      "difficulty": "easy"
+    },
+    {
+      "id": "mv15",
+      "question": "¿En qué año se estrenó la primera película de los Vengadores?",
+      "options": ["2010", "2011", "2012", "2013"],
+      "correct": 2,
+      "difficulty": "medium"
+    }
+  ]
+}

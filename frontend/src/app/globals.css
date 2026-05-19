@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables de color para usarlas en CSS puro cuando Tailwind no llega */
+:root {
+  --cream: #F5EFE3;
+  --beige: #EDE4D3;
+  --sand: #C8A882;
+  --brown-light: #A07850;
+  --brown: #7A5C3A;
+  --brown-dark: #4A3020;
+  --amber-warm: #D4956A;
+  --success: #6BAF6B;
+  --error: #C0392B;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--cream);
+  color: var(--brown-dark);
+}
+
+/* Scrollbar personalizado con colores cálidos */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--beige);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--sand);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brown-light);
+}
+
+/* Clases de componentes reutilizables */
+@layer components {
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-3xl shadow-card border border-beige-100;
+  }
+
+  .card-warm {
+    @apply bg-cream-100 rounded-3xl shadow-warm border border-beige-200;
+  }
+
+  .btn-primary {
+    @apply bg-brown text-cream-50 font-semibold px-6 py-3 rounded-2xl
+           shadow-warm transition-all duration-200
+           hover:bg-brown-dark hover:shadow-warm-lg hover:-translate-y-0.5
+           active:translate-y-0 active:shadow-warm
+           disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply bg-beige-100 text-brown font-semibold px-6 py-3 rounded-2xl
+           border border-beige-200 shadow-card transition-all duration-200
+           hover:bg-beige-200 hover:shadow-warm hover:-translate-y-0.5
+           active:translate-y-0;
+  }
+
+  .btn-accent {
+    @apply bg-amber-warm text-white font-semibold px-6 py-3 rounded-2xl
+           shadow-warm transition-all duration-200
+           hover:bg-amber-light hover:shadow-warm-lg hover:-translate-y-0.5
+           active:translate-y-0;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-2xl bg-white border border-beige-200
+           text-brown-dark placeholder-sand font-medium
+           focus:outline-none focus:border-sand focus:ring-2 focus:ring-sand/20
+           transition-all duration-200;
+  }
+
+  /* Fondo degradado principal que uso en varias páginas */
+  .bg-warm-gradient {
+    background: linear-gradient(135deg, #F5EFE3 0%, #EDE4D3 50%, #E2D5BE 100%);
+  }
+
+  /* Badge del código de sala */
+  .room-code {
+    @apply font-bold text-3xl tracking-widest text-brown
+           bg-beige-100 px-6 py-2 rounded-2xl border-2 border-sand
+           select-all cursor-pointer;
+  }
+}
