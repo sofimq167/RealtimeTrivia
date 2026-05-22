@@ -1,5 +1,7 @@
 # RealtimeTrivia
 
+Desarrollado por: Sofia Moreno y Julian Fuentes
+
 Proyecto para la materia de desarrollo Web de una plataforma de trivia multijugador en tiempo real. La idea es: crear una sala, compartir el código con tus amigos, elegir una categoría y ver quién sabe más sobre videojuegos o películas.
 
 ---
